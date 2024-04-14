@@ -1,0 +1,15 @@
+Assignment 01:
+---------------
+1) Read the notes of Day001_Notes.txt
+2) Try to create an empty java project
+    File > New > java project
+3) Then follow the steps in Day001_Notes.txt and add Maven support to it.
+
+Note: For students using other IDEs like Eclipse,
+I would request to check the steps in google
+"To add Maven support to existing Java project in Eclipse" and steps neatly
+in the Day001_Notes.txt with Eclipse Heading.
+
+Assignment 02:
+---------------
+

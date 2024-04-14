@@ -1,0 +1,24 @@
+When I have created empty repository in the GITHUB and cloned to my local,
+then we don't have the support of the Maven by default, to enable Maven
+on existing tool, we will be following above steps.
+
+How to add Maven support to already existing empty project?
+IntelliJ IDEA
+1) Open IntelliJ IDEA and load your existing project (e.g., a Java project).
+2) In the Project tool window,
+select the module or project directory to which you want to add Maven.
+3) Press Ctrl + Shift + A (or Cmd + Shift + A on macOS) to open the Find Action dialog.
+4) Type “Add Framework Support” and select the corresponding action.
+5) In the Add Framework Support dialog,
+choose Maven from the options on the left and click OK.
+6) IntelliJ IDEA will add a default POM (Project Object Model)
+to your project and generate the standard Maven layout in the Project tool window.
+7) It will also create a corresponding structure with Lifecycle and
+Plugins in the Maven tool window.
+8) Open the generated pom.xml file and specify a groupId.
+The artifactId and version are automatically set.
+9) Make all further project changes in the pom.xml,
+as IntelliJ IDEA treats it as the single source of truth for
+Maven-related configurations.
+
+Eclipse:
